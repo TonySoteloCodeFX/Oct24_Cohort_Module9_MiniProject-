@@ -53,3 +53,8 @@ main {
     font-family: "Roboto", serif;
     font-weight: 700;
 }
+
+.navbar-brand:hover {
+    color: white;
+    scale: 1.1;
+}

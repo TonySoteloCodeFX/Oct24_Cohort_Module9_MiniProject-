@@ -2,7 +2,47 @@
     font-family: "Roboto", serif;
     margin: 50px;
     width: 1600px;
-    height: 100vh;
+    height: 70vh;
     display: flex;
-    background-color: aquamarine;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: #ffffff1a;
+    border: 1px solid #ffffff20;
+    backdrop-filter: blur(35px) saturate(120%);
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    scale: 1.05;
+    box-shadow: 0 7px 16px #FC7744;
+}
+
+.work-img, .dev-img, .crm-img {
+    width: 80%;
+    scale: .7;
+}
+
+.btn {
+    color: white;
+    background-color: #FC7744;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #FC7744;
+    background-color: white;
+}
+
+h5 {
+    font-family: "Anton", serif;
+    font-size: 25px;
 }
