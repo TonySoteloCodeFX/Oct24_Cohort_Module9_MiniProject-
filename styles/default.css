@@ -39,3 +39,17 @@ footer {
     grid-area: footer;
     font-family: "Roboto", serif;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-areas: 
+    ".left-side .right-side .right-side";
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.left-side {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+}
