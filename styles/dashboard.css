@@ -14,14 +14,15 @@
 }
 
 input {
-    background-color: #FC7744;
+    background-color: #ecc1b0;
+    border-radius: 5px;
 }
 
 select {
-    background-color: #FC7744;
+    background-color: #ecc1b0;
 }
 
 .progress {
-    background-color: #FC7744;
+    background-color: #ecc1b0;
 }
 
