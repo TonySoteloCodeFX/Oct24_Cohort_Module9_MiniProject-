@@ -1,0 +1,27 @@
+.right-side {
+    height: 45rem;
+    width: 110rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.my-table {
+    width: 70%;
+    scale: 1.1;
+}
+
+input {
+    background-color: #FC7744;
+}
+
+select {
+    background-color: #FC7744;
+}
+
+.progress {
+    background-color: #FC7744;
+}
+
