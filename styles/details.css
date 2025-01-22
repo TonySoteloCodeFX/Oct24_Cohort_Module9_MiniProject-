@@ -1,9 +1,38 @@
 .right-side {
-    margin: 30px;
-    width: 107rem;
-    background-color: aquamarine;
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 40rem;
+    width: 70rem;
+    background: #ffffff1a;
+    border: 1px solid #ffffff20;
+    border-radius: 20px;
+    backdrop-filter: blur(35px) saturate(120%);
+    position: relative;
+    margin: 5% 0%;
+    left: 25%;
 }
 
-.righ-a {
-    background-color: blueviolet;
+table {
+    height: 100%;
+}
+
+input {
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+textarea {
+    border-radius: 10px;
 }
